@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleOfBook"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="titleofbook"
+        android:textSize="20dp"
+        android:textColor="#FFDE03"
+        android:background="#FFC107"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/NoOfPages"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_below="@id/publisherName"
+        android:text="noofpages"
+        android:textSize="20dp"
+        android:textColor="#FFDE03"
+        android:background="#FFC107"
+        />
+
+    <TextView
+        android:id="@+id/publisherName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="publishername"
+        android:layout_below="@id/titleOfBook"
+        android:textSize="20dp"
+        android:textColor="#FFDE03"
+        android:background="#FF0266"
+        />
+
+
+
+</RelativeLayout>
